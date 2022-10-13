@@ -1,0 +1,102 @@
+* {
+  /* margin: 0;
+  padding: 0; */
+  box-sizing: border-box;
+}
+body {
+  border-top: 5px solid #1098ad;
+}
+header {
+  background-color: #f7f7f7;
+}
+h1,
+h2,
+h3,
+h4,
+p,
+li {
+  font-family: sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: #1098ad;
+}
+
+h1 {
+  font-size: 26px;
+  font-style: italic;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 40px;
+}
+h3 {
+  font-size: 30px;
+}
+h4 {
+  font-size: 20px;
+  text-transform: uppercase;
+  text-align: center;
+}
+p {
+  color: #444;
+  font-size: 22px;
+  line-height: 1.5;
+}
+
+li {
+  font-size: 20px;
+}
+#author {
+  font-size: 18px;
+  font-style: italic;
+}
+.related-author {
+  font-size: 18px;
+  font-weight: bold;
+}
+.related {
+  list-style: none;
+}
+.related a {
+  color: rgb(0, 255, 255);
+}
+aside {
+  background-color: #f7f7f7;
+  border-top: solid #1098ad 5px;
+  border-bottom: solid #1098ad 5px;
+}
+li:first-child {
+  font-weight: bold;
+}
+li:last-child {
+  font-style: italic;
+}
+
+/* Styling Links */
+
+a:link {
+  cursor: pointer;
+  color: #1098ad;
+  text-decoration: none;
+}
+a:visited {
+  color: #1098ad;
+}
+a:hover {
+  color: rgb(255, 68, 0);
+  font-weight: bold;
+  text-decoration: underline;
+}
+a:active {
+  font-style: italic;
+}
+/* Link | Visited | Hover | Active */
+
+#copyright {
+  font-size: 16px;
+}
